@@ -1,0 +1,66 @@
+main {
+  background-color: rgb(226, 233, 236);
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: rgb(175, 203, 221);
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  color: rgb(10, 57, 87);
+}
+
+
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 101, 131);
+}
+table {
+  /*border-collapse: collapse;*/
+  border: 2px solid lightslategray;
+  max-width: 80%;
+  position: relative;
+  margin: 40px auto;
+}
+
+#table_outline thead {
+  border-collapse: collapse;
+  background-color: rgb(175, 203, 221);
+  max-width: 80%;
+}
+
+#table_outline tbody {
+  border-collapse: collapse;
+  background-color: rgb(236, 230, 197);
+  max-width: 80%;
+}
+
+#table_outline tfoot {
+  border-collapse: collapse;
+  background-color: rgb(175, 203, 221);
+  max-width: 80%;
+}
+
+th, td {
+  border: 1px solid lightslategray;
+  padding: 15px 100px;
+  text-align: center;
+  font-family: monospace;
+}
+
+caption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  caption-side: bottom;
+  padding-top: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: rgb(175, 203, 221);
+}
